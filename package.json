@@ -43,6 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+    "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+    },
     exports.printMsg = function() {
       console.log("This is a message from the demo package");
     }
